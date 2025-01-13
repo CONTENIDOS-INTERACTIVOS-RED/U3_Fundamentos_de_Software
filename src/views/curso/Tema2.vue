@@ -271,7 +271,7 @@
           .col-lg-5(data-aos="zoom-in").order-1
             img.img-fluid(src='@/assets/curso/tema2/17.png', style="max-width:486px", alt="").mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
 
-    .bg-full-width.bg-color-2.mb-5
+    .bg-full-width.bg-color-2
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto

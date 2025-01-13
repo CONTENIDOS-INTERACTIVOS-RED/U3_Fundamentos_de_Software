@@ -258,7 +258,7 @@
             h2.mb-4(data-aos="flip-up") Entornos de desarrollo integrados y compiladores: potenciando la productividad en programación
             p.mb-4(data-aos="fade-right") Los entornos de desarrollo integrados (IDEs), optimizan el flujo de trabajo al centralizar herramientas claves como editores de código, depuradores y gestores de proyectos. Ofrecen funcionalidades como autocompletado, integración con control de versiones y soporte para múltiples lenguajes, adaptándose a diversas necesidades con opciones ligeras, multipropósito, en la nube o especializadas.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
