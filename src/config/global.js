@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '2',
-    tituloUnidad: 'Principios de diseño de software',
+    numeroUnidad: '3',
+    tituloUnidad: 'Herramientas y metodologías de desarrollo de software',
   },
   menuPrincipal: {
     menu: [
@@ -17,42 +17,35 @@ export default {
         numero: '1',
         titulo: 'Principios de diseño (cohesión, acoplamiento, modularidad)',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Tipos de cohesión',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo:
-              'Principio de modularidad en el diseño de <em>software</em>',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Diagramas UML básicos',
+        titulo:
+          'Introducción a sistemas de control de versiones (Git y GitHub)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Las fases del SDLC',
+            titulo: '¿Qué es un sistema de control de versiones?',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Modelos del SDLC',
+            titulo: 'Introducción a Git',
             hash: 't_2_2',
           },
         ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Herramientas básicas para el desarrollo de <em>software</em>',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'sintesis',
@@ -92,95 +85,100 @@ export default {
   referencias: [
     {
       referencia:
-        'Díaz, J. Harari, I. & Amadeo, A. P. (2013). Guía de recomendaciones para diseño de <em>software</em> centrado en el usuario. Editorial de la Universidad Nacional de La Plata. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/66410',
+        'Monte Galiano, J. (2016). Implantar scrum con éxito. Editorial UOC. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/58575',
     },
     {
       referencia:
-        'García Bermúdez, J. C. (2023). Diseño de elementos <em>software</em> con tecnologías basadas en componentes. IFCT0609 (2 ed.). IC Editorial. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/246682 ',
+        'Heras del Dedo, R. D. L. & Álvarez García, A. (2017). Métodos ágiles: Scrum, Kanban, Lean. Difusora Larousse - Anaya Multimedia.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/122933',
     },
     {
       referencia:
-        'Jiménez de Parga, C. (2014). UML Aplicaciones en Java y C++. RA-MA Editorial.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106466 ',
+        'Clery Aguirre, A. G. (2009). Aplicación y uso del sistema Kanban para lograr la eficiencia operativa de una empresa. El Cid Editor | apuntes.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/28569',
     },
     {
       referencia:
-        'Teniente López, E. Costal Costa, D. & Sancho Samsó, M. R. (2015). Especificación de sistemas <em>software</em> en UML. Universitat Politècnica de Catalunya. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/61407 ',
+        'Gomez, J. (2015). Git: Introducción y fundamentos, día 1. Universidad de Córdoba.',
+      link:
+        'https://www.uco.es/aula<em>software</em>libre/wp-content/uploads/2015/11/git-cosfera-dia-1.pdf',
+    },
+    {
+      referencia: 'Fiqus. (2016). Git-Manual básico de usuario.',
+      link: ' https://www.valor.es/wp-content/uploads/2016/04/git_manual.pdf',
     },
     {
       referencia:
-        'Quintero, J. B. (2006). Un estudio comparativo de herramientas para el modelado con UML. Red Universidad Eafit. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/5285',
+        'Díaz Polo, D. (2011). Definición de un proceso de desarrollo de <em>software</em> en un entorno universitario. D - Instituto Superior Politécnico José Antonio Echeverría. CUJAE. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/86033 ',
     },
     {
-      referencia:
-        'Vélez Serrano, J. (2011). Diseñar y programar, todo es empezar: una introducción a la Programación Orientada a Objetos usando UML y Java. Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/63076',
+      referencia: 'Ilerna Online. (2021). Entornos de desarrollo. Cartagena99.',
+      link:
+        'https://www.cartagena99.com/recursos/alumnos/apuntes/210927125051-Entornos%20de%20desarrollo_%20Material%20didactico.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Acoplamiento',
+      termino: 'Compilador',
       significado:
-        'Relación y dependencia entre módulos o componentes de un sistema. Un bajo acoplamiento indica que los módulos interactúan de manera mínima, favoreciendo la flexibilidad y el mantenimiento del sistema.',
+        'Programa que traduce el código fuente escrito en un lenguaje de programación de alto nivel a un lenguaje de bajo nivel, como código máquina, para que pueda ser ejecutado por una computadora.',
     },
     {
-      termino: 'Actor',
+      termino: 'Control de versiones',
       significado:
-        'En los diagramas de casos de uso, representa a una entidad externa (persona, sistema u organización) que interactúa con el sistema, para lograr un objetivo.',
+        'Herramienta que permite a los desarrolladores gestionar y hacer un seguimiento de los cambios realizados en el código fuente a lo largo del tiempo.',
     },
     {
-      termino: 'Clase',
+      termino: '<em>Debugging</em> (Depuración)',
       significado:
-        'Plantilla o modelo en el diseño, orientado a objetos que definen atributos (propiedades) y métodos (comportamientos) comunes a un grupo de objetos.',
+        'Proceso de identificar, analizar y corregir errores o "bugs" en el código de un programa informático. Es una tarea esencial en el desarrollo de <em>software</em> para garantizar su correcto funcionamiento.',
     },
     {
-      termino: 'Cohesión',
+      termino: 'Git',
       significado:
-        'Grado en que los elementos de un módulo o componente están relacionados y trabajan juntos para cumplir un propósito específico. Alta cohesión mejora la claridad y el mantenimiento.',
+        'Sistema de control de versiones distribuido que permite a los desarrolladores gestionar el código fuente y su historial de cambios.',
     },
     {
-      termino: 'Diagrama de casos de uso',
+      termino: 'GitHub',
       significado:
-        'Representación gráfica en UML que describe las interacciones entre los actores y el sistema, mostrando las funcionalidades principales desde una perspectiva del usuario.',
+        'Plataforma de desarrollo colaborativo basada en la web que utiliza Git para el control de versiones. Permite a los usuarios almacenar y compartir repositorios de código, facilitando la colaboración en proyectos de <em>software</em>.',
     },
     {
-      termino: 'Diagrama de clases',
+      termino: 'IDE (Entorno de Desarrollo Integrado)',
       significado:
-        'Modelo en UML que muestra las clases, sus atributos, métodos y las relaciones entre ellas, representando la estructura estática del sistema.',
+        '<em>software</em> que proporciona un conjunto de herramientas necesarias para el desarrollo de <em>software</em> en un solo entorno. Incluye un editor de código, un compilador, un depurador y herramientas de control de versiones.',
     },
     {
-      termino: 'Diagrama de secuencia',
+      termino: 'Kanban',
       significado:
-        'Representación en UML de las interacciones entre objetos a lo largo del tiempo, mostrando el orden cronológico de los mensajes intercambiados.',
+        'Metodología ágil de gestión de proyectos que utiliza un sistema visual de tarjetas o tableros para representar el flujo de trabajo. Kanban ayuda a visualizar las tareas y priorizar el trabajo en equipo de manera eficiente.',
     },
     {
-      termino: 'Herencia',
+      termino: 'Métodos Ágiles',
       significado:
-        'Principio del diseño orientado a objetos que permite que una clase (subclase) adquiera las características y comportamientos de otra clase (superclase), promoviendo la reutilización de código.',
+        'Conjunto de prácticas de desarrollo de <em>software</em> que enfatizan la colaboración, la flexibilidad y la entrega incremental. Los métodos ágiles buscan adaptarse rápidamente a los cambios en los requerimientos y necesidades del cliente.',
     },
     {
-      termino: 'Mensaje',
+      termino: 'Scrum',
       significado:
-        'Comunicación enviada entre objetos en un diagrama de secuencia, representando la invocación de un método o el intercambio de información.',
+        'Marco de trabajo ágil utilizado para gestionar proyectos de <em>software</em> de manera iterativa e incremental. Scrum organiza el trabajo en ciclos llamados <em>sprints</em> y se enfoca en mejorar la productividad del equipo mediante la colaboración y la revisión constante.',
     },
     {
-      termino: 'Modularidad',
+      termino: 'Sistema de control de versiones distribuido',
       significado:
-        'Principio del diseño que implica dividir un sistema en componentes independientes (módulos) que puedan ser desarrollados, probados y mantenidos por separado.',
+        'Tipo de sistema de control de versiones donde cada desarrollador tiene una copia completa del proyecto y su historial, lo que permite trabajar sin conexión y facilita la colaboración entre equipos distribuidos.',
     },
     {
-      termino: 'Objeto',
+      termino: 'Texto plano',
       significado:
-        'Instancia concreta de una clase en el diseño orientado a objetos, que encapsula datos (estado) y comportamiento (métodos).',
+        'Tipo de archivo que contiene solo texto sin formato ni estructura adicional, sin incluir elementos de estilo como negrita o cursiva. Los editores de texto suelen trabajar con archivos de texto plano, lo que los hace ligeros y rápidos.',
     },
     {
-      termino: 'Relación',
+      termino: 'Versión',
       significado:
-        'Conexión entre clases en un diagrama de clases, como asociación, agregación, composición o herencia, que define cómo interactúan o dependen entre sí.',
+        'Cada actualización o modificación significativa de un programa o proyecto de <em>software</em>. En el control de versiones, las versiones ayudan a gestionar los cambios a lo largo del tiempo, permitiendo a los desarrolladores regresar a una versión anterior si es necesario.',
     },
   ],
 }

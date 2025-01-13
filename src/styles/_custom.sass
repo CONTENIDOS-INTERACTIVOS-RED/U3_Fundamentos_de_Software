@@ -46,6 +46,9 @@
     background-color: #C5B4FE
   &-15
     background-color: #F0EBFE
+  &-16
+    background-color: #F6FDE5
+ 
   
   &-info
     background-color: #E8EEFD
@@ -129,6 +132,25 @@
     transform: translateY(-9%)
     background-color: #D9FEFC
     z-index: 0
+  .col-lg-12, .row
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+  
+    &::after
+      height: 100%
+
+.bg-h85-5
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: -8%
+    left: -43px
+    width: calc( 100% + 98px)
+    height: 92%
+    transform: translateY(-9%)
+    background-color: #EBFEFD
   .col-lg-12, .row
     z-index: 1
   @media screen and (max-width: $bp-max-md)

@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El diseño de <em>software</em>, se fundamenta en principios como cohesión, acoplamiento y modularidad, que permiten desarrollar sistemas claros, escalables y fáciles de mantener. La cohesión asegura módulos con responsabilidades relacionadas; el acoplamiento busca minimizar dependencias, y la modularidad divide el sistema en componentes autónomos. Además, los diagramas UML facilitan la planificación del <em>software</em> al representar estructuras y dinámicas. Finalmente, el diseño orientado a objetos, organiza sistemas mediante clases, objetos y herencia.  
+              p.descripcion.mb-4 Las metodologías ágiles, como Scrum y Kanban, promueven el desarrollo eficiente mediante ciclos iterativos, entregas frecuentes y adaptación a cambios. Scrum estructura el trabajo en <em>sprints</em> con roles definidos (<em>Product Owner, Scrum Master</em>, equipo de desarrollo) y ceremonias claves (planificación, <em>daily scrum</em>, retrospectiva). Por su parte, Kanban utiliza tableros visuales para optimizar flujos de trabajo. Ambas priorizan la colaboración y la mejora continua. Herramientas como Git y GitHub facilitan el control de versiones, la gestión colaborativa y la automatización, mientras que editores de texto modernos ofrecen flexibilidad, productividad y soporte multiplataforma. 
               
-              p #[b Siempre se puede construir un <em>software</em> que transforme ideas en soluciones reales.]
+              
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

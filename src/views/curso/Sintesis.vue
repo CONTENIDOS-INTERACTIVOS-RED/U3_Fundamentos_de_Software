@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 En esta unidad, se han analizado los fundamentos esenciales del diseño de <em>software</em>, organizados en tres temas principales. Cada uno de estos temas está alineado con los resultados de aprendizaje planteados, facilitando la adquisición de herramientas para comprender, analizar y aplicar principios de diseño, modelado con UML y paradigmas orientados al objeto.
+      p(data-aos="fade-up").mb-5 Esta unidad ha abordado las competencias fundamentales que todo profesional del desarrollo de <em>software</em> necesita para destacar en el entorno tecnológico actual. Cada tema ha sido diseñado para garantizar que los participantes adquieran conocimientos prácticos y teóricos aplicables directamente en proyectos reales, abarcando metodologías de trabajo, herramientas de colaboración y tecnologías esenciales.
 
       .row.justify-content-center
         .col-lg-10.mb-5
