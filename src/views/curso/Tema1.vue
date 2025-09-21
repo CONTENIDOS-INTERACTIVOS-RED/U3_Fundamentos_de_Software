@@ -194,7 +194,7 @@
               img(src="@/assets/curso/tema1/15.png", data-aos="zoom-in")
           .col-lg-6.order-1            
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-              texto="Fundamentos de la innovación estratégica"
+              texto="Scrum"
               tiempo
               :audio="require('../../assets/curso/podcast/podcast1.mp3')"
             )
